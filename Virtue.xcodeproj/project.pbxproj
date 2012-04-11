@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5DF76A152E04CE0092F585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5DF769152E04CE0092F585 /* Foundation.framework */; };
+		FB5DF772152E04CE0092F585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB5DF770152E04CE0092F585 /* InfoPlist.strings */; };
+		FB5DF776152E04CE0092F585 /* Virtue.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF775152E04CE0092F585 /* Virtue.m */; };
+		FB5DF77F152E051D0092F585 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5DF77E152E051D0092F585 /* AppKit.framework */; };
+		FB5DF781152E05270092F585 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5DF780152E05270092F585 /* Cocoa.framework */; };
+		FBCD1A5D152E10B500DEA9AE /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD1A5C152E10B500DEA9AE /* Adium.framework */; };
+		FBCD1A81152E82C900DEA9AE /* profanity.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBCD1A80152E82C900DEA9AE /* profanity.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB5DF766152E04CE0092F585 /* Virtue.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtue.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5DF769152E04CE0092F585 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB5DF76F152E04CE0092F585 /* Virtue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Virtue-Info.plist"; sourceTree = "<group>"; };
+		FB5DF771152E04CE0092F585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB5DF773152E04CE0092F585 /* Virtue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Virtue-Prefix.pch"; sourceTree = "<group>"; };
+		FB5DF774152E04CE0092F585 /* Virtue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Virtue.h; sourceTree = "<group>"; };
+		FB5DF775152E04CE0092F585 /* Virtue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Virtue.m; sourceTree = "<group>"; };
+		FB5DF77E152E051D0092F585 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FB5DF780152E05270092F585 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FBCD1A5C152E10B500DEA9AE /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = Frameworks/Adium.framework; sourceTree = "<group>"; };
+		FBCD1A80152E82C900DEA9AE /* profanity.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profanity.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5DF763152E04CE0092F585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5DF781152E05270092F585 /* Cocoa.framework in Frameworks */,
+				FB5DF77F152E051D0092F585 /* AppKit.framework in Frameworks */,
+				FB5DF76A152E04CE0092F585 /* Foundation.framework in Frameworks */,
+				FBCD1A5D152E10B500DEA9AE /* Adium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5DF75B152E04CD0092F585 = {
+			isa = PBXGroup;
+			children = (
+				FB5DF76D152E04CE0092F585 /* Virtue */,
+				FB5DF768152E04CE0092F585 /* Frameworks */,
+				FB5DF767152E04CE0092F585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5DF767152E04CE0092F585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF766152E04CE0092F585 /* Virtue.AdiumPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5DF768152E04CE0092F585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBCD1A5C152E10B500DEA9AE /* Adium.framework */,
+				FB5DF780152E05270092F585 /* Cocoa.framework */,
+				FB5DF77E152E051D0092F585 /* AppKit.framework */,
+				FB5DF769152E04CE0092F585 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB5DF76D152E04CE0092F585 /* Virtue */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF774152E04CE0092F585 /* Virtue.h */,
+				FB5DF775152E04CE0092F585 /* Virtue.m */,
+				FBCD1A7D152E464000DEA9AE /* Resources */,
+				FB5DF76E152E04CE0092F585 /* Supporting Files */,
+			);
+			path = Virtue;
+			sourceTree = "<group>";
+		};
+		FB5DF76E152E04CE0092F585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF76F152E04CE0092F585 /* Virtue-Info.plist */,
+				FB5DF770152E04CE0092F585 /* InfoPlist.strings */,
+				FB5DF773152E04CE0092F585 /* Virtue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCD1A7D152E464000DEA9AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBCD1A80152E82C900DEA9AE /* profanity.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5DF765152E04CE0092F585 /* Virtue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5DF779152E04CE0092F585 /* Build configuration list for PBXNativeTarget "Virtue" */;
+			buildPhases = (
+				FB5DF762152E04CE0092F585 /* Sources */,
+				FB5DF763152E04CE0092F585 /* Frameworks */,
+				FB5DF764152E04CE0092F585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtue;
+			productName = Virtue;
+			productReference = FB5DF766152E04CE0092F585 /* Virtue.AdiumPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5DF75D152E04CD0092F585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Nascent Digital";
+			};
+			buildConfigurationList = FB5DF760152E04CD0092F585 /* Build configuration list for PBXProject "Virtue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB5DF75B152E04CD0092F585;
+			productRefGroup = FB5DF767152E04CE0092F585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5DF765152E04CE0092F585 /* Virtue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5DF764152E04CE0092F585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5DF772152E04CE0092F585 /* InfoPlist.strings in Resources */,
+				FBCD1A81152E82C900DEA9AE /* profanity.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5DF762152E04CE0092F585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5DF776152E04CE0092F585 /* Virtue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB5DF770152E04CE0092F585 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5DF771152E04CE0092F585 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5DF777152E04CE0092F585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB5DF778152E04CE0092F585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB5DF77A152E04CE0092F585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/../Virtuous\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Virtue/Virtue-Prefix.pch";
+				INFOPLIST_FILE = "Virtue/Virtue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Debug;
+		};
+		FB5DF77B152E04CE0092F585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/../Virtuous\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Virtue/Virtue-Prefix.pch";
+				INFOPLIST_FILE = "Virtue/Virtue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5DF760152E04CD0092F585 /* Build configuration list for PBXProject "Virtue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5DF777152E04CE0092F585 /* Debug */,
+				FB5DF778152E04CE0092F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5DF779152E04CE0092F585 /* Build configuration list for PBXNativeTarget "Virtue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5DF77A152E04CE0092F585 /* Debug */,
+				FB5DF77B152E04CE0092F585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5DF75D152E04CD0092F585 /* Project object */;
+}
